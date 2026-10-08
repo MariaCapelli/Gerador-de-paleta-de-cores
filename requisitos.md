@@ -5,6 +5,7 @@ Desenvolver um sistema web para geração de paletas de cores homologas, análog
 
 ### Stack Tecnológico
 - Backend: PHP estruturado com sessões nativas
+- Banco de dados: MySQL
 - Frontend: HTML5, PHP, CSS, Tailwind CSS
 
 #### Regras de negócio (CORE)
