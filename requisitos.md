@@ -8,6 +8,7 @@ Desenvolver um sistema web para geração de paletas de cores homologas, análog
 - Frontend: HTML5, PHP, CSS, Tailwind CSS
 
 #### Regras de negócio (CORE)
+(escrever narrativa)
 O sistema deve ter uma página de históricos e manter sempre os logs de qualquer alteração feita por 
 qualquer usuário, para auditorias futuras.
 
