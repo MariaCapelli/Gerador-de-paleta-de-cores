@@ -8,9 +8,11 @@ Desenvolver um sistema web para geração de paletas de cores homologas, análog
 - Frontend: HTML5, PHP, CSS, Tailwind CSS
 
 #### Regras de negócio (CORE)
-(escrever narrativa)
-O sistema deve ter uma página de históricos e manter sempre os logs de qualquer alteração feita por 
-qualquer usuário, para auditorias futuras.
+- O usuário deve escolher uma cor base e selecionar o tipo de harmonia desejada. O sistema deverá gerar automaticamente as cores da paleta com base no círculo cromático.
+- A paleta poderá utilizar harmonias como monocromática, análoga, complementar, complementar dividida, tríade e tétrade. As cores geradas deverão apresentar seus códigos HEX, RGB e HSL, permitindo ao usuário copiar os códigos.
+- O usuário poderá salvar a paleta informando nome e descrição. As paletas salvas deverão ficar vinculadas ao usuário responsável e poderão ser posteriormente visualizadas, editadas ou excluídas.
+- O sistema deverá possuir uma página de histórico para consulta das paletas e das alterações realizadas. Toda criação, edição ou exclusão deverá gerar um registro de auditoria contendo o usuário, ação, data e registro afetado.
+- A lógica de geração das cores deverá ser separada da interface, permitindo adicionar novas harmonias futuramente sem alterar a estrutura principal do sistema.
 
 ##### Regras Globais
 - Use sempre PDO para conexão e queries no MySQL para evitar SQL Injections
