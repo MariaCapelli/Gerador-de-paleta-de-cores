@@ -1,8 +1,9 @@
 # Gerador de Paleta de Cores
 
 ## Objetivos
-Desenvolver um sistema web para geração de paletas de cores homologas, análogas e tríade a partir de uma cor escolhida pelo usuário, utilizando o círculo cromático para gerar combinações de cores harmônicas. O sistema deve permitir gerar, visualizar, salvar, editar e excluir paletas de cores, mantendo um histórico completo das alterações realizadas pelos usuários para futuras auditorias. pode usar esses sites como referencias * https://color.adobe.com/br/create/color-wheel *
-* https://color.adobe.com/br/create/image *
+Desenvolver um sistema web para geração de paletas de cores homologas, análogas e tríade a partir de uma cor escolhida pelo usuário, utilizando o círculo cromático para gerar combinações de cores harmônicas. O sistema deve permitir gerar, visualizar, salvar, editar e excluir paletas de cores, mantendo um histórico completo das alterações realizadas pelos usuários para futuras auditorias. pode usar esses sites como referencias 
+* https://color.adobe.com/br/create/color-wheel
+* https://color.adobe.com/br/create/image
 
 ### Stack Tecnológico
 - Backend: PHP estruturado com sessões nativas
